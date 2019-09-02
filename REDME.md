@@ -23,12 +23,12 @@ var audioObject = new Audio('http://cloud.hunger-valley.com/music/玫瑰.mp3')
 #### 3. audioObject.pause()
 暂停播放
 
-#### 4. audioObject.autoPlay
+#### 4. audioObject.autoplay
 设置或者获取自动播放状态
 
 ```javascript
-audioObject.autoPlay = true  //设置为自动播放，下次更换 audioObject.src 后会自动播放音乐
-audioObject.autoPlay = false //设置不自动播放
+audioObject.autoplay = true  //设置为自动播放，下次更换 audioObject.src 后会自动播放音乐
+audioObject.autoplay = false //设置不自动播放
 console.log(audioObject.autoPlay)
 ```
 
